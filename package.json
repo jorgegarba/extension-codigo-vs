@@ -1,0 +1,32 @@
+{
+    "name": "mi-extension",
+    "displayName": "mi-extension",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Extension CodiGo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Extension CodiGo-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icons/codigo-dark.png",
+    "author": {
+        "name": "Jorge Garnica",
+        "email": "jorgegarba@gmail.com",
+        "url": "https://www.linkedin.com/in/jgarnicablanco/"
+    },
+    "repository": {
+        "url": "https://github.com/jorgegarba/extension-codigo-vs.git",
+        "type": "git"
+    },
+    "publisher": "codigo-tecsup"
+}
